@@ -1,0 +1,81 @@
+/*#2285FF*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 246, 246);
+    overflow-x: hidden;
+}
+
+#title{
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff9c22;
+    transition: .15s ease-in-out;
+    padding-bottom: 15px;
+    line-height: 1;
+    padding-top: 10px;
+}
+#title:hover{
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #FC466B;
+    padding-bottom: 5px;
+}
+#navbutton{
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    border: 2px solid #ff9c22;
+    color: #ff9c22;
+    letter-spacing: 0.7;
+    transition: .2s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+#navbutton:hover{
+    background: #FF9C22;
+    background: linear-gradient(264deg,rgba(255, 156, 34, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1;
+    border: transparent;
+}
+
+#footer{
+    width: 80%;
+    background: #FF9C22;
+    background: linear-gradient(264deg, rgba(255, 156, 34, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 20%;
+}
+#footertitle{
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #fff8e7;
+}
+#footersubtitle{
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff5df;
+    padding-left: 25px;
+}
